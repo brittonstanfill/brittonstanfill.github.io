@@ -1,2 +1,6 @@
 h1 {
-  font-size: 100px; }
+  font-size: 100px;
+  font-family: "karmina-sans"; }
+
+html, body {
+  margin: 0; }
