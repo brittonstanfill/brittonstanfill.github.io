@@ -1,6 +1,7 @@
 h1 {
   font-size: 100px;
-  font-family: "karmina-sans"; }
+  font-family: "karmina-sans";
+  text-align: center; }
 
 html, body {
   margin: 0; }
