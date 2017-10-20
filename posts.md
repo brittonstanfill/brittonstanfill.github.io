@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in site.post %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -16,4 +16,4 @@ layout: default
     </article>
   {% endfor %}
 </div>
-<!-- {% include footer.html %} -->
+{% include footer.html %}

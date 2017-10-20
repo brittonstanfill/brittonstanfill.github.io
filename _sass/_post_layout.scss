@@ -1,0 +1,46 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+body {
+  border: 24px solid #212121;
+  box-sizing: border-box;
+}
+
+
+h1.post-h1 {
+  font-family: KarminaSans-Bold;
+  font-size: 48px;
+  color: #1C2A32;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: normal;
+}
+
+.date {
+  font-family: KarminaSans-Bold;
+  font-size: 14px;
+  color: #EA4545;
+  letter-spacing: 0.47px;
+  line-height: 16px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.post p {
+  font-family: KarminaSans;
+  font-size: 16px;
+  color: #384B56;
+  margin: 0 0 16px 0;
+}
+
+.small-avatar {
+  width: 16px;
+  height: auto;
+  border-radius: 16px;
+  margin-right: 8px;
+}
