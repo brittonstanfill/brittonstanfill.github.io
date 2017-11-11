@@ -1,3 +1,6 @@
-body {
-	color: black;
+@import 'normalize';
+@import 'nav';
+
+html, body {
+	margin: 0;
 }

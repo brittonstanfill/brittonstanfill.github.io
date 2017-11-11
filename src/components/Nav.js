@@ -5,6 +5,7 @@ export default class Nav extends React.Component {
 	render () {
 		return (
 			<nav>
+				<span className='logo'>Britton Stanfill</span>
 				<ul>
 					<li>
 						<Link to='/'>Home</Link>
@@ -13,7 +14,7 @@ export default class Nav extends React.Component {
 						<Link to='blog'>Blog</Link>
 					</li>
 					<li>
-						<Link to='courses'>Courses</Link>
+						<Link to='course'>Course</Link>
 					</li>
 				</ul>
 			</nav>

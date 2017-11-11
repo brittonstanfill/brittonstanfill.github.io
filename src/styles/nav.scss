@@ -1,0 +1,30 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: 'Helvetica Neue' ,sans-serif;
+	padding: 16px 24px;
+}
+nav ul {
+	list-style-type: none;
+	display: flex;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-size: 13px;
+	a {
+		padding: 4px 16px;
+		text-decoration: none;
+		color: #1C2A32;
+		&:visted {
+			color: #1C2A32;
+		}
+		&:last-child {
+			padding-right: 0;
+		}
+	}
+}
+
+.logo {
+	font-weight: 500;
+	letter-spacing: 1px;
+}
