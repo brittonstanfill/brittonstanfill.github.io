@@ -15,7 +15,11 @@ nav ul {
 		padding: 4px 16px;
 		text-decoration: none;
 		color: #1C2A32;
-		&:visted {
+		transition: color 0.2s ease-in-out;
+		&:hover {
+			color: #EA4545;
+		}
+		&:visited {
 			color: #1C2A32;
 		}
 		&:last-child {
