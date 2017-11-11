@@ -1,1 +1,1 @@
-body{color:#000}ul{list-style-type:none}
+nav{justify-content:space-between;align-items:center;font-family:Helvetica Neue,sans-serif;padding:16px 24px}nav,nav ul{display:flex}nav ul{list-style-type:none;text-transform:uppercase;letter-spacing:1.5px;font-size:13px}nav ul a{padding:4px 16px;text-decoration:none}nav ul a,nav ul a:visted{color:#1c2a32}nav ul a:last-child{padding-right:0}.logo{font-weight:500;letter-spacing:1px}body,html{margin:0}
