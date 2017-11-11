@@ -2,25 +2,26 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	font-family: 'Helvetica Neue' ,sans-serif;
+	font-family: 'Helvetica Neue', sans-serif;
 	padding: 16px 24px;
 }
+
 nav ul {
-	list-style-type: none;
+	list-style: none;
 	display: flex;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 	font-size: 13px;
-	a {
+	li a {
 		padding: 4px 16px;
 		text-decoration: none;
 		color: #1C2A32;
 		transition: color 0.2s ease-in-out;
-		&:hover {
-			color: #EA4545;
-		}
 		&:visited {
 			color: #1C2A32;
+		}
+		&:hover {
+			color: #EA4545;
 		}
 		&:last-child {
 			padding-right: 0;
