@@ -11,7 +11,7 @@ class BlogIndex extends React.Component {
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
     return (
-      <div>
+      <div className="post_container">
         <Helmet title={siteTitle} />
         <Bio />
         {posts.map(post => {
@@ -19,14 +19,14 @@ class BlogIndex extends React.Component {
             const title = get(post, 'node.frontmatter.title') || post.node.path
             return (
               <div key={post.node.frontmatter.path}>
-                <h3>
+                <h1>
                   <Link
                     style={{ boxShadow: 'none' }}
                     to={post.node.frontmatter.path}
                   >
                     {title}
                   </Link>
-                </h3>
+                </h1>
                 <small>{post.node.frontmatter.date}</small>
                 <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
               </div>

@@ -11,13 +11,13 @@ export default class BlogPost extends React.Component {
 			description,
 		} = post.frontmatter;
 
-		console.log(post)
+		// console.log(post)
 
 		return (
 	      <div>
 	        <Helmet title={`Page Title`} />
 	        <h1>{title}</h1>
-	        <p>
+	        <p className="date">
 	          {date}
 	        </p>
 	        <p>

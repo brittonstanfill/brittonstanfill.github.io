@@ -1,6 +1,12 @@
 @import 'normalize';
 @import 'nav';
+@import 'buttons';
+@import 'typography';
 
 html, body {
 	margin: 0;
+}
+
+.post_container {
+	padding: 24px;
 }
