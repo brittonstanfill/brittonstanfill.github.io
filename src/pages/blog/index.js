@@ -18,8 +18,8 @@ class BlogIndex extends React.Component {
           if (post.node.frontmatter.path !== '/404/') {
             const title = get(post, 'node.frontmatter.title') || post.node.path
             return (
-              <div key={post.node.frontmatter.path}>
-                <h1>
+              <div  className="posts_descriptions" key={post.node.frontmatter.path}>
+                <h1 className="post_descriptions_title">
                   <Link
                     style={{ boxShadow: 'none' }}
                     to={post.node.frontmatter.path}
@@ -27,8 +27,8 @@ class BlogIndex extends React.Component {
                     {title}
                   </Link>
                 </h1>
-                <small>{post.node.frontmatter.date}</small>
-                <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
+                <small className="post_date">{post.node.frontmatter.date}</small>
+                <p className="post_description" dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
               </div>
             )
           }

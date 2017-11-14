@@ -1,0 +1,38 @@
+.posts_descriptions {
+	border: 1px solid rgba(0,0,0,.1);
+	border-radius: 5px;
+	padding: 16px;
+	box-sizing: border-box;
+	margin: 8px 0;
+}
+
+.post_descriptions_title {
+	margin: 0;
+	a {
+		text-transform: none;
+		color: #1C2A32;
+		&:visited {
+			color: #1C2A32;
+		}
+		&:hover {
+			color: #1C2A32;
+		}
+	}
+}
+
+.post_date {
+	color: rgba(0,0,0,.54);
+}
+
+.post_description {
+	color: rgba(0,0,0,.54);
+	line-height: 1.5em;
+}
+
+.profile-pic {
+	border-radius: 100%;
+	width: 100px;
+	height: auto;
+	margin: 0 auto;
+	display: block
+}

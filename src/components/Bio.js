@@ -6,13 +6,14 @@ class Bio extends React.Component {
     return (
       <div>
         <img
+          className="profile-pic"
           src={profilePic}
-          alt={`Kyle Mathews`}
+          alt={`Britton Stanfill`}
         />
         <p>
-          Written by <strong>Kyle Mathews</strong> who lives and works in San
-          Francisco building useful things.{' '}
-          <a href="https://twitter.com/kylemathews">
+          I'm a Senior UX Designer and the Team Lead at Jive Communications. I founded DevMountain's UX/UI program and have mentored over 200 UX Designers and Developers.
+          {' '}
+          <a href="https://twitter.com/bstanfill">
             You should follow him on Twitter
           </a>
         </p>
