@@ -3,6 +3,7 @@ title: Asking personal questions
 date: "2017-11-01T22:12:03.284Z"
 path: "/asking-personal-questions/"
 description: "Asking personal questions in interviewing can feel like the wrong choice. It really isn't!"
+tag: "UX Research"
 ---
 <!-- (http://en.wikipedia.org/wiki/Salted_duck_egg). -->
 <!-- ![Chinese Salty Egg](./salty_egg.jpg) -->

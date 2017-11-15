@@ -4,7 +4,7 @@ import profilePic from './profile-pic.jpg'
 class Bio extends React.Component {
   render() {
     return (
-      <div>
+      <div className="bio_container">
         <img
           className="profile-pic"
           src={profilePic}

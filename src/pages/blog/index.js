@@ -11,24 +11,29 @@ class BlogIndex extends React.Component {
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
     return (
-      <div className="post_container">
+      <div className="blog_container">
         <Helmet title={siteTitle} />
         <Bio />
         {posts.map(post => {
           if (post.node.frontmatter.path !== '/404/') {
             const title = get(post, 'node.frontmatter.title') || post.node.path
             return (
-              <div  className="posts_descriptions" key={post.node.frontmatter.path}>
-                <h1 className="post_descriptions_title">
-                  <Link
-                    style={{ boxShadow: 'none' }}
-                    to={post.node.frontmatter.path}
-                  >
-                    {title}
-                  </Link>
-                </h1>
-                <small className="post_date">{post.node.frontmatter.date}</small>
-                <p className="post_description" dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
+              <div  className="blog_entries" key={post.node.frontmatter.path}>
+                <div className="blog_entry_content">
+                  <h1 className="blog_entry_title">
+                    <Link
+                      style={{ boxShadow: 'none' }}
+                      to={post.node.frontmatter.path}
+                    >
+                      {title}
+                    </Link>
+                  </h1>
+                  <p className="blog_entry_description" dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
+                  <div className="blog_meta_data">
+                    <small className="blog_entry_date">{post.node.frontmatter.date}</small>
+                    <small className="blog_entry_tag">{post.node.frontmatter.tag}</small>
+                  </div>
+                </div>
               </div>
             )
           }
@@ -56,7 +61,8 @@ export const pageQuery = graphql`
             date(formatString: "DD MMMM, YYYY")
           }
           frontmatter {
-            title
+            title,
+            tag
           }
         }
       }

@@ -9,20 +9,18 @@ export default class BlogPost extends React.Component {
 			date,
 			title,
 			description,
+			tag,
 		} = post.frontmatter;
 
 		// console.log(post)
 
 		return (
-	      <div>
+	      <div className="post_container">
 	        <Helmet title={`Page Title`} />
-	        <h1>{title}</h1>
-	        <p className="date">
-	          {date}
-	        </p>
-	        <p>
-	          Description: {description}
-	        </p>
+	        <h1 className="post_title">{title}</h1>
+	        <p className="post_date">{date}</p>
+	        <p className="post_tag">{tag}</p>
+	        <p className="post_description">{description}</p>
 	        <div dangerouslySetInnerHTML={{ __html: post.html }} />
 	        <hr/>
 	        <Bio />

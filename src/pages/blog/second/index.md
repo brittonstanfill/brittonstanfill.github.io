@@ -3,6 +3,7 @@ title: My Second Post testing!
 date: "2015-05-06T23:46:37.121Z"
 path: "/my-second-post/"
 description: "The second post"
+tag: "Implementation"
 ---
 
 Wow! I love blogging so much already.
