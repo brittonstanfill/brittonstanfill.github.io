@@ -1,6 +1,7 @@
 // Main "div". "children" is the content/body of your app. This is where you can put nav/footer which you want on every page.
 
 import React from 'react'
+import Typekit from 'react-typekit';
 import Link from 'gatsby-link'
 import Nav from '../components/Nav'
 
@@ -13,6 +14,7 @@ class Template extends React.Component {
 
     return (
       <div>
+      <Typekit kitId="kis6mak" />
         <Nav />
         {children()}
         <div>FOOTER ON EVERY PAGE</div>
