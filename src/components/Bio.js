@@ -1,22 +1,14 @@
 import React from 'react'
-import profilePic from './profile-pic.jpg'
 
 class Bio extends React.Component {
   render() {
     return (
-      <div className="bio_container">
-        <img
-          className="profile-pic"
-          src={profilePic}
-          alt={`Britton Stanfill`}
-        />
-        <p>
-          I'm a Senior UX Designer and the Team Lead at Jive Communications. I founded DevMountain's UX/UI program and have mentored over 200 UX Designers and Developers.
+      <div className="bio-container">
+        <p className="personal_tag_line">
+          Hi, I'm Britton a Product Designer based in Salt Lake City, I create product experiences that create value for users and my employers.
           {' '}
-          <a href="https://twitter.com/bstanfill">
-            You should follow him on Twitter
-          </a>
         </p>
+      <div className="shade"></div>
       </div>
     )
   }
