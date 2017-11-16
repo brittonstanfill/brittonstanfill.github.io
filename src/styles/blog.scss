@@ -38,21 +38,27 @@
 
 /* Post */
 .post_container {
+	max-width: 800px;
+	margin: 0 auto;
 	p {
-		font-size: 20px;
-		line-height: 1.5rem;
+		font-size: 1.3rem;
+		line-height: 2rem;
 		margin-bottom: 28px;
 		color: #384B56;
+	}
+	.post_date {
+		font-size: 1rem;
+		color: #EA4545;
+		margin: 0;
 	}
 }
 .post_title {
 	font-size: 42px;
 	font-weight: 700;
+	margin: 0;
 }
 .post_description {}
 .post_quote {}
-.post_date {}
-
 
 /* Blog Page */
 .blog_entries {

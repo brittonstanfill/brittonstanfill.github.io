@@ -22,8 +22,6 @@ export default class BlogPost extends React.Component {
 	        <p className="post_tag">{tag}</p>
 	        <p className="post_description">{description}</p>
 	        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-	        <hr/>
-	        <Bio />
 	      </div>
 		)
 	}
