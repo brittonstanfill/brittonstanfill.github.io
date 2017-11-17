@@ -1,3 +1,7 @@
+// * {
+// 	outline: 1px solid red;
+// }
+
 nav {
 	display: flex;
 	flex-direction: column;
@@ -19,9 +23,10 @@ nav ul {
 	margin: 0;
 	width: 100%;
 	li {
-		text-align: center;	
+		text-align: left;	
 		width: 100%;
 		display: block;
+		font-size: 18px;
 		&:last-child {
 			padding-right: 0;
 		}
@@ -53,8 +58,11 @@ nav ul {
 		justify-content: space-between;
 		align-items: center;
 		width: inherit;
+		font-size: 13px;
 		li {
 			display: inline-block;
+			font-size: 13px;
+			text-align: center;
 		}
 		a {
 			display: inline-block;
