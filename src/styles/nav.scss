@@ -73,4 +73,18 @@ nav ul {
 .logo {
 	font-weight: 500;
 	letter-spacing: 1px;
+	font-size: 1.5rem;
+	text-decoration: none;
+	a {
+		display: block;
+		text-decoration: none;
+		color: #1C2A32;
+		transition: color 0.2s ease-in-out;
+		&:visited {
+			color: #1C2A32;
+		}
+		// &:hover {
+		// 	color: #EA4545;
+		// }
+	}
 }
