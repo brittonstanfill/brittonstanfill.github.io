@@ -1,16 +1,16 @@
 {
   "assetsByChunkName": {
-    "path---my-second-post": [
-      "path---my-second-post-bb1c94f610013f93c2c7.js",
-      "path---my-second-post-bb1c94f610013f93c2c7.js.map"
+    "path---information-imbalance": [
+      "path---information-imbalance-9f3fdda4585bc3eb098f.js",
+      "path---information-imbalance-9f3fdda4585bc3eb098f.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-77d829a76d74ba5d4d8f.js",
       "component---src-pages-index-js-77d829a76d74ba5d4d8f.js.map"
     ],
     "path---blog": [
-      "path---blog-eb1192a1919a10a6ca40.js",
-      "path---blog-eb1192a1919a10a6ca40.js.map"
+      "path---blog-859d60bc1ccdedf8df42.js",
+      "path---blog-859d60bc1ccdedf8df42.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -29,12 +29,8 @@
       "component---src-templates-blog-post-js-783ee1be340ceec330c9.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-80179f83765b6c2acef3.js",
-      "component---src-layouts-index-js-80179f83765b6c2acef3.js.map"
-    ],
-    "path---hi-folks": [
-      "path---hi-folks-5302462a366b64cfc583.js",
-      "path---hi-folks-5302462a366b64cfc583.js.map"
+      "component---src-layouts-index-js-f0a1ff96703127b1dc27.js",
+      "component---src-layouts-index-js-f0a1ff96703127b1dc27.js.map"
     ],
     "path---asking-personal-questions": [
       "path---asking-personal-questions-b2c1565b3109e0511bae.js",
@@ -61,8 +57,8 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-82d9302c8c4a435beedd.js",
-      "app-82d9302c8c4a435beedd.js.map"
+      "app-ada43f725083e5853c97.js",
+      "app-ada43f725083e5853c97.js.map"
     ]
   }
 }
