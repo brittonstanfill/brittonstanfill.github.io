@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---information-imbalance": [
-      "path---information-imbalance-9f3fdda4585bc3eb098f.js",
-      "path---information-imbalance-9f3fdda4585bc3eb098f.js.map"
+      "path---information-imbalance-bc04f5d05db01ded927b.js",
+      "path---information-imbalance-bc04f5d05db01ded927b.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-77d829a76d74ba5d4d8f.js",
@@ -57,8 +57,8 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-ada43f725083e5853c97.js",
-      "app-ada43f725083e5853c97.js.map"
+      "app-a2e3425a4a8686130468.js",
+      "app-a2e3425a4a8686130468.js.map"
     ]
   }
 }
